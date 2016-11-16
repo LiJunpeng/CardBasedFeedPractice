@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3B31D11DDCF72600776778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31D01DDCF72600776778 /* main.m */; };
+		BF3B31D41DDCF72600776778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31D31DDCF72600776778 /* AppDelegate.m */; };
+		BF3B31D71DDCF72600776778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31D61DDCF72600776778 /* ViewController.m */; };
+		BF3B31DA1DDCF72600776778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3B31D81DDCF72600776778 /* Main.storyboard */; };
+		BF3B31DC1DDCF72600776778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3B31DB1DDCF72600776778 /* Assets.xcassets */; };
+		BF3B31DF1DDCF72600776778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3B31DD1DDCF72600776778 /* LaunchScreen.storyboard */; };
+		BF3B31EA1DDCF72600776778 /* CardBasedFeedPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31E91DDCF72600776778 /* CardBasedFeedPracticeTests.m */; };
+		BF3B31F51DDCF72600776778 /* CardBasedFeedPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31F41DDCF72600776778 /* CardBasedFeedPracticeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF3B31E61DDCF72600776778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3B31C41DDCF72600776778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3B31CB1DDCF72600776778;
+			remoteInfo = CardBasedFeedPractice;
+		};
+		BF3B31F11DDCF72600776778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3B31C41DDCF72600776778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3B31CB1DDCF72600776778;
+			remoteInfo = CardBasedFeedPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF3B31CC1DDCF72600776778 /* CardBasedFeedPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardBasedFeedPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3B31D01DDCF72600776778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF3B31D21DDCF72600776778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF3B31D31DDCF72600776778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF3B31D51DDCF72600776778 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF3B31D61DDCF72600776778 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF3B31D91DDCF72600776778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3B31DB1DDCF72600776778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3B31DE1DDCF72600776778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF3B31E01DDCF72600776778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3B31E51DDCF72600776778 /* CardBasedFeedPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardBasedFeedPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3B31E91DDCF72600776778 /* CardBasedFeedPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardBasedFeedPracticeTests.m; sourceTree = "<group>"; };
+		BF3B31EB1DDCF72600776778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3B31F01DDCF72600776778 /* CardBasedFeedPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardBasedFeedPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3B31F41DDCF72600776778 /* CardBasedFeedPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardBasedFeedPracticeUITests.m; sourceTree = "<group>"; };
+		BF3B31F61DDCF72600776778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3B31C91DDCF72600776778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B31E21DDCF72600776778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B31ED1DDCF72600776778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3B31C31DDCF72600776778 = {
+			isa = PBXGroup;
+			children = (
+				BF3B31CE1DDCF72600776778 /* CardBasedFeedPractice */,
+				BF3B31E81DDCF72600776778 /* CardBasedFeedPracticeTests */,
+				BF3B31F31DDCF72600776778 /* CardBasedFeedPracticeUITests */,
+				BF3B31CD1DDCF72600776778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3B31CD1DDCF72600776778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B31CC1DDCF72600776778 /* CardBasedFeedPractice.app */,
+				BF3B31E51DDCF72600776778 /* CardBasedFeedPracticeTests.xctest */,
+				BF3B31F01DDCF72600776778 /* CardBasedFeedPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3B31CE1DDCF72600776778 /* CardBasedFeedPractice */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B31D21DDCF72600776778 /* AppDelegate.h */,
+				BF3B31D31DDCF72600776778 /* AppDelegate.m */,
+				BF3B31D51DDCF72600776778 /* ViewController.h */,
+				BF3B31D61DDCF72600776778 /* ViewController.m */,
+				BF3B31D81DDCF72600776778 /* Main.storyboard */,
+				BF3B31DB1DDCF72600776778 /* Assets.xcassets */,
+				BF3B31DD1DDCF72600776778 /* LaunchScreen.storyboard */,
+				BF3B31E01DDCF72600776778 /* Info.plist */,
+				BF3B31CF1DDCF72600776778 /* Supporting Files */,
+			);
+			path = CardBasedFeedPractice;
+			sourceTree = "<group>";
+		};
+		BF3B31CF1DDCF72600776778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B31D01DDCF72600776778 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF3B31E81DDCF72600776778 /* CardBasedFeedPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B31E91DDCF72600776778 /* CardBasedFeedPracticeTests.m */,
+				BF3B31EB1DDCF72600776778 /* Info.plist */,
+			);
+			path = CardBasedFeedPracticeTests;
+			sourceTree = "<group>";
+		};
+		BF3B31F31DDCF72600776778 /* CardBasedFeedPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B31F41DDCF72600776778 /* CardBasedFeedPracticeUITests.m */,
+				BF3B31F61DDCF72600776778 /* Info.plist */,
+			);
+			path = CardBasedFeedPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3B31CB1DDCF72600776778 /* CardBasedFeedPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3B31F91DDCF72600776778 /* Build configuration list for PBXNativeTarget "CardBasedFeedPractice" */;
+			buildPhases = (
+				BF3B31C81DDCF72600776778 /* Sources */,
+				BF3B31C91DDCF72600776778 /* Frameworks */,
+				BF3B31CA1DDCF72600776778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardBasedFeedPractice;
+			productName = CardBasedFeedPractice;
+			productReference = BF3B31CC1DDCF72600776778 /* CardBasedFeedPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF3B31E41DDCF72600776778 /* CardBasedFeedPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3B31FC1DDCF72600776778 /* Build configuration list for PBXNativeTarget "CardBasedFeedPracticeTests" */;
+			buildPhases = (
+				BF3B31E11DDCF72600776778 /* Sources */,
+				BF3B31E21DDCF72600776778 /* Frameworks */,
+				BF3B31E31DDCF72600776778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3B31E71DDCF72600776778 /* PBXTargetDependency */,
+			);
+			name = CardBasedFeedPracticeTests;
+			productName = CardBasedFeedPracticeTests;
+			productReference = BF3B31E51DDCF72600776778 /* CardBasedFeedPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF3B31EF1DDCF72600776778 /* CardBasedFeedPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3B31FF1DDCF72600776778 /* Build configuration list for PBXNativeTarget "CardBasedFeedPracticeUITests" */;
+			buildPhases = (
+				BF3B31EC1DDCF72600776778 /* Sources */,
+				BF3B31ED1DDCF72600776778 /* Frameworks */,
+				BF3B31EE1DDCF72600776778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3B31F21DDCF72600776778 /* PBXTargetDependency */,
+			);
+			name = CardBasedFeedPracticeUITests;
+			productName = CardBasedFeedPracticeUITests;
+			productReference = BF3B31F01DDCF72600776778 /* CardBasedFeedPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3B31C41DDCF72600776778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LILouis;
+				TargetAttributes = {
+					BF3B31CB1DDCF72600776778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5M33A8S27U;
+						ProvisioningStyle = Automatic;
+					};
+					BF3B31E41DDCF72600776778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5M33A8S27U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF3B31CB1DDCF72600776778;
+					};
+					BF3B31EF1DDCF72600776778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5M33A8S27U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF3B31CB1DDCF72600776778;
+					};
+				};
+			};
+			buildConfigurationList = BF3B31C71DDCF72600776778 /* Build configuration list for PBXProject "CardBasedFeedPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3B31C31DDCF72600776778;
+			productRefGroup = BF3B31CD1DDCF72600776778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3B31CB1DDCF72600776778 /* CardBasedFeedPractice */,
+				BF3B31E41DDCF72600776778 /* CardBasedFeedPracticeTests */,
+				BF3B31EF1DDCF72600776778 /* CardBasedFeedPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3B31CA1DDCF72600776778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3B31DF1DDCF72600776778 /* LaunchScreen.storyboard in Resources */,
+				BF3B31DC1DDCF72600776778 /* Assets.xcassets in Resources */,
+				BF3B31DA1DDCF72600776778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B31E31DDCF72600776778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B31EE1DDCF72600776778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3B31C81DDCF72600776778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3B31D71DDCF72600776778 /* ViewController.m in Sources */,
+				BF3B31D41DDCF72600776778 /* AppDelegate.m in Sources */,
+				BF3B31D11DDCF72600776778 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B31E11DDCF72600776778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3B31EA1DDCF72600776778 /* CardBasedFeedPracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3B31EC1DDCF72600776778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3B31F51DDCF72600776778 /* CardBasedFeedPracticeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF3B31E71DDCF72600776778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3B31CB1DDCF72600776778 /* CardBasedFeedPractice */;
+			targetProxy = BF3B31E61DDCF72600776778 /* PBXContainerItemProxy */;
+		};
+		BF3B31F21DDCF72600776778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3B31CB1DDCF72600776778 /* CardBasedFeedPractice */;
+			targetProxy = BF3B31F11DDCF72600776778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF3B31D81DDCF72600776778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3B31D91DDCF72600776778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF3B31DD1DDCF72600776778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3B31DE1DDCF72600776778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3B31F71DDCF72600776778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF3B31F81DDCF72600776778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3B31FA1DDCF72600776778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5M33A8S27U;
+				INFOPLIST_FILE = CardBasedFeedPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Louis.CardBasedFeedPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF3B31FB1DDCF72600776778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5M33A8S27U;
+				INFOPLIST_FILE = CardBasedFeedPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Louis.CardBasedFeedPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF3B31FD1DDCF72600776778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5M33A8S27U;
+				INFOPLIST_FILE = CardBasedFeedPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Louis.CardBasedFeedPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardBasedFeedPractice.app/CardBasedFeedPractice";
+			};
+			name = Debug;
+		};
+		BF3B31FE1DDCF72600776778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5M33A8S27U;
+				INFOPLIST_FILE = CardBasedFeedPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Louis.CardBasedFeedPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardBasedFeedPractice.app/CardBasedFeedPractice";
+			};
+			name = Release;
+		};
+		BF3B32001DDCF72600776778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5M33A8S27U;
+				INFOPLIST_FILE = CardBasedFeedPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Louis.CardBasedFeedPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardBasedFeedPractice;
+			};
+			name = Debug;
+		};
+		BF3B32011DDCF72600776778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5M33A8S27U;
+				INFOPLIST_FILE = CardBasedFeedPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Louis.CardBasedFeedPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardBasedFeedPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3B31C71DDCF72600776778 /* Build configuration list for PBXProject "CardBasedFeedPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3B31F71DDCF72600776778 /* Debug */,
+				BF3B31F81DDCF72600776778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3B31F91DDCF72600776778 /* Build configuration list for PBXNativeTarget "CardBasedFeedPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3B31FA1DDCF72600776778 /* Debug */,
+				BF3B31FB1DDCF72600776778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF3B31FC1DDCF72600776778 /* Build configuration list for PBXNativeTarget "CardBasedFeedPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3B31FD1DDCF72600776778 /* Debug */,
+				BF3B31FE1DDCF72600776778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF3B31FF1DDCF72600776778 /* Build configuration list for PBXNativeTarget "CardBasedFeedPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3B32001DDCF72600776778 /* Debug */,
+				BF3B32011DDCF72600776778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3B31C41DDCF72600776778 /* Project object */;
+}
