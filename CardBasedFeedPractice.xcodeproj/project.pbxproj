@@ -15,6 +15,7 @@
 		BF3B31DF1DDCF72600776778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3B31DD1DDCF72600776778 /* LaunchScreen.storyboard */; };
 		BF3B31EA1DDCF72600776778 /* CardBasedFeedPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31E91DDCF72600776778 /* CardBasedFeedPracticeTests.m */; };
 		BF3B31F51DDCF72600776778 /* CardBasedFeedPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B31F41DDCF72600776778 /* CardBasedFeedPracticeUITests.m */; };
+		BF3B32041DDD092C00776778 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B32031DDD092C00776778 /* MyCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BF3B31F01DDCF72600776778 /* CardBasedFeedPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardBasedFeedPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3B31F41DDCF72600776778 /* CardBasedFeedPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardBasedFeedPracticeUITests.m; sourceTree = "<group>"; };
 		BF3B31F61DDCF72600776778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3B32031DDD092C00776778 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				BF3B31DD1DDCF72600776778 /* LaunchScreen.storyboard */,
 				BF3B31E01DDCF72600776778 /* Info.plist */,
 				BF3B31CF1DDCF72600776778 /* Supporting Files */,
+				BF3B32031DDD092C00776778 /* MyCell.m */,
 			);
 			path = CardBasedFeedPractice;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3B31D71DDCF72600776778 /* ViewController.m in Sources */,
+				BF3B32041DDD092C00776778 /* MyCell.m in Sources */,
 				BF3B31D41DDCF72600776778 /* AppDelegate.m in Sources */,
 				BF3B31D11DDCF72600776778 /* main.m in Sources */,
 			);
